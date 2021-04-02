@@ -1,2 +1,2 @@
 # Maple
-🍁 Unix-like operating system.
+🍁 A Unix-like operating system.
