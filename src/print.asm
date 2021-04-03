@@ -2,7 +2,7 @@ print:
     pusha
     mov ah, 0x0e
     
-    .Loop:
+.Loop:
     cmp [bx], byte 0
     je .Exit
 
@@ -12,6 +12,6 @@ print:
     inc bx
     jmp .Loop
     
-    .Exit:
+.Exit:
     popa
     ret
